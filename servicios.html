@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <title>SmartHome</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <!--site css-->
+    <link href="css/site.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lobster">
+    <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Dosis:500' rel='stylesheet' type='text/css'>
+
+    
+  </head>
+
+  <body>
+
+    <div class="header">
+      <div class="container">
+        <div class="logo">
+          <img src="images/logo.png" alt="smarthome logo"/>
+        </div>
+        <div id="shuffleText">
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a class="nav-item nav-inicio" href="#">inicio</a></li>
+            <li><a class="nav-item nav-servicios"  href="#about">servicios</a></li>
+            <li><a class="nav-item nav-contactenos" id="menuContact" href="#contact">contactenos</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container servicesSection">
+        <div class="contentLinksContainer">
+            <div value="smartHomeDesign" class="contentLink currentLink">1. Sistemas SmartHome</div>
+            <div value="smartHomeRedesign" class="contentLink rightLink">2. Redistribuci&oacute;n Sistemas SmartHome</div>
+        </div>
+        <div id="services">
+            <div class="service" id="smartHomeDesign">
+                <div id="designBkg1" class="serviceContent"></div>
+                <div id="designBkg2" class="serviceContent"></div>
+                <div id="designBkg3" class="serviceContent"></div>
+                <div id="designBkg4" class="serviceContent"></div>
+
+                <div id="designText1" class="serviceContentText">
+                    <h1>Dise&ntilde;o de soluciones de dom&oacute;tica para el hogar</h1>
+                    <p>Servicio completo de an&aacute;lisis, dise&ntilde;o e implementaci&oacute;n de una soluci&oacute;n smarthome &oacute;ptima para las necesidades del cliente.</p>
+                </div>
+                <div id="designText2" class="serviceContentText">
+                    <h1>An&aacute;lisis:</h1>
+                    <p>Se analizan las necesidades del cliente y el estado actual del recinto en el que se desea instalar el sistema tomando en cuenta factores como la instalaci&oacute;n el&eacute;ctrica, distancia entre habitaciones o salas, conectividad a internet.</p>
+                </div>
+                <div id="designText3" class="serviceContentText">
+                    <h1>Dise&ntilde;o:</h1>
+                    <p>Con base en el an&aacute;lisis se realiza el dise&ntilde;o de la soluci&oacute;n smarthome m&aacute;s apropiada para las necesidades del cliente, en funci&oacute;n del presupuesto y funcionalidad indicados.</p>
+                </div>
+                <div id="designText4" class="serviceContentText">
+                    <h1>Implementaci&oacute;n:</h1>
+                    <p>En esta fase se materializa el dise&ntilde;o realizado en el lugar especificado por el cliente. Involucrando todos los dispositivos y controladores necesarios.</p>
+                </div>
+            </div>
+            <div class="service" id="smartHomeRedesign">
+                <div id="redesignBkg1" class="serviceContent"></div>
+                <div id="redesignBkg2" class="serviceContent"></div>
+                <div id="redesignText1" class="serviceContentText">
+                    <h1>Ampliaci&oacute;n, redistribuci&oacute;n o mudanza de dispositivos</h1>
+                </div>
+                <div id="redesignText2" class="serviceContentText">
+                    <p>Este servicio est&aacute; orientado para clientes bajo las siguientes condiciones</p>
+                    <ul>
+                        <li>Clientes que ya poseen un sistema smarthome instalado y desean ampliar o integrar nuevos dispositivos a su sistema actual</li>
+                        <li>Clientes que requieren una redistribuci&oacute;n de sus dispositivos actuales en el mismo sitio</li>
+                        <li>Clientes que requieran una mudanza del sistema completo a una nueva ubicaci&oacute;n.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <div class="navbar-collapse collapse">
+                  <ul class="nav navbar-nav">
+                    <li><a class="nav-item" href="#">INICIO</a></li>
+                    <li><a class="nav-item" href="#about">SERVICIOS</a></li>
+                    <li><a class="nav-item" href="#contact">CONTACTENOS</a></li>
+                  </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="leftside">
+                    <span>&Uacute;nete a la conversaci&oacute;n:</span>
+                    <a target="_blank" class="footerLinks" href="http://www.facebook.com"><img src="images/facebook-icon.png" height="22px" width="auto" alt="facebook"></a>
+                    <a target="_blank" class="footerLinks" href="http://www.twitter.com"><img src="images/Logo_twitter.png" height="22px" width="auto" alt="twitter"></a>
+                    <a target="_blank" class="footerLinks" href="http://www.youtube.com"><img src="images/YouTube-icon-full_color.png" height="22px" width="auto" alt="youtube"></a>
+                </div>
+                <div class="rightside">
+                    <div class="logo">
+                      <img src="images/logo.png" alt="smarthome logo"/>
+                      <span>&copy; SMARTHOME 2014</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script src="js/shuffleLetters.js"></script>
+    <script src="js/site.js"></script>
+    
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 3500 //changes the speed
+    })
+    </script>
+  </body>
+</html>
